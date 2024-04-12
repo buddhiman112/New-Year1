@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive About us section</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+
+    html {
+        box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+
+    .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+    }
+
+    .about-section {
+        padding: 50px;
+        text-align: center;
+        background-color: #474e5d;
+        color: white;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .container::after,
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .title {
+        color: grey;
+    }
+
+    .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .button:hover {
+        background-color: #555;
+    }
+
+    @media screen and (max-width: 650px) {
+        .column {
+            width: 100%;
+            display: block;
+        }
+    }
+</style>
+
+<body>
+    <div class="about-section">
+        <h1>About Us </h1>
+        <p>Angan is operated by Pashupati Foods, and has been engaged in the sweets and snacks
+            endeavor since the past 24 years. Therefore, all preparations are accomplished in
+            accordance with their strict quality control with no compromise. Way back in 1992,
+            Angan was just a traditional sweets, chat, fast food and bakery store.</p>
+        <p>Aangan is a proper and best South Indian restaurant in Kathmandu with high-standard amenities and services in
+            town. Mainly specialized in Indian Meals, Aagan offers veg meals, Indian meals, south Indian meals,
+            and varieties of meals on its menu.</p>
+    </div>
+
+    <h2 style="text-align:center">Our Team</h2>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="chef-rohit-3.jpg" alt="Jane" style="width:100%">
+                <div class="container">
+                    <h2> </h2>
+                    <p class="title">Chef</p>
+                    <p></p>
+                    <p>vivekAgrawal@gmail.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="chef1.webp" alt="Mike" style="width:100%">
+                <div class="container">
+                    <h2>bikash khanna</h2>
+                    <p class="title">Chef
+
+                    </p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>Sherpa@example.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="garden2.jpeg" alt="John" style="width:100%">
+                <div class="container">
+
+                    New Road Branch: Behind Global IME Bank, Pyukha Marg, New Road, Kathmandu Phone: 01-4240778
+
+                    Putalisadak Branch: Opposite Valley Nursing Home, Putalisadak, Kathmandu Phone: 01-4246318
+
+                    Gyaneshwor Branch: Jain Niketan Building, Gyaneshwor Chowk, Way to Naxal Bhagwati, Gyaneshwor,
+                    Kathmandu Phone: 01-4441009
+
+                    <p>Tripureshwor Branch: Next to Blue Bird Mall, Tripureshwor, Kathmandu Phone: 01-4212502
+
+                        <span id="dots">...</span><span id="more">
+                            Lazimpat Branch: Opposite Radisson Hotel, Lazimpat, Kathmandu Phone: 01-4410037
+
+                            We believe in cultured and safe environment. We uphold the highest level of integrity in our
+                            operations.
+
+                            First, who we are? Angan is operated by Pashupati Foods, and has been engaged in the sweets
+                            and
+                            snacks endeavor since the past 24 years. Therefore, all preparations are accomplished in
+                            accordance with their strict quality control with no compromise. Way back in 1992, Angan was
+                            just a traditional sweets, chat, fast food and bakery store. However, it gradually and
+                            successfully carried the miracles of taking great traditional taste to new international
+                            heights. As a result, it has gained stronghold over the sweet market in Nepal today.
+
+                            Under the supervision of M/s Bikanerwala Foods Pvt. Ltd. (a leading manufacturer of Indian
+                            traditional sweets and namkeen) New Delhi, India having more than 59 outlets in and out of
+                            India, Angan continues to improve in its every single endeavor achieving new heights of
+                            success
+                            with every new preparation.
+
+
+
+                            <p> Quality and hygiene/safety control:
+                            </p>
+                            <p>Our tasty sweets must be safe by all means. We maintain strict standards. We always
+                                maintain a
+                                safe environment we conduct quality and hygiene control to take across the globe a rich
+                                heritage
+                                of cuisine founded by our forefathers, with added flavor, taste, quality and shelf-life,
+                                produced and manufactured under hygienic conditions by adopting latest innovations and
+                                technology.</p>
+                            <p>Angan’s system for hygiene control:
+
+                                We at Angan conduct a stringent total sanitation system in which the site and facilities
+                                come
+                                under scrutiny. At each stage of production, we always make sure that the food is
+                                hygienic for
+                                customers. For that reason, we maintain strict checks divided into work area blocks to
+                                ensure
+                                that the plant is hygienic. In our plant, our products are prepared in a clean area/room
+                                with a
+                                special filter. A one-way flow of production ensures that anything in a contaminated
+                                block does
+                                not enter the clean block. Not only are the site and facilities hygienically supervised,
+                                but
+                                each worker takes the utmost care towards hygiene while performing any action in the
+                                preparation
+                                of the products.</p>
+
+
+
+
+
+
+                        </span>
+
+                        http://www.bikanervala.com/presence.php
+
+                    </p>
+                    <button onclick="myFunction()"
+                    id="myBtn">Read More</button>
+
+                    <p>john@example.com</p>
+                    <p><button class="button">Contact</button></p>
+
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="" alt="John" style="width:100%">
+                <div class="container">
+                    <h2>John Doe</h2>
+                    <p class="title">Designer</p>
+                    <p>
+
+                </div>
+
+</body>
+
+</html>

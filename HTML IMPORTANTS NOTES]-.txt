@@ -1,0 +1,28 @@
+HTML IMPORTANTS NOTES]:-
+
+
+*sticky property in css 
+*dispay
+*flex ,inline,display  grid (HW)
+*float/clear (left, right)  to break yhe line in any text *or picture  we should used ( clear)
+
+grideant means  (mixed color)in css  
+types (linear ,and radial gradient )	
+
+# @media screen
+
+DBMS Note
+grant --> give permision
+revog -->  remove rermission
+
+movies name:
+The pursuit Happyness
+I am Kalam 
+The social network 
+Asuran
+The Man who knew Infinity
+Taare zameen par
+different browser,display ,usability
+
+
+
